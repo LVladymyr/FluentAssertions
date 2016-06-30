@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002702"
+    },
+    "FluentAssertions.Dotnetstandard.Core": "1.0.0-*",
+    "Newtonsoft.Json": "6.0.6"
+  },
+
+  "frameworks": {
+    "netstandard1.5": {
+      "imports": "dnxcore50"
+    }
+  }
+}

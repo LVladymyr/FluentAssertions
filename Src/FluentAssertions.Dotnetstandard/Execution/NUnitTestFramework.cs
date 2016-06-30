@@ -1,15 +1,15 @@
 ﻿namespace FluentAssertions.Execution
 {
-    public class XUnitTestFramework : LateBoundTestFramework
+    internal class NUnitTestFramework : LateBoundTestFramework
     {
         protected override string AssemblyName
         {
-            get { return "xunit"; }
+            get { return "nunit.framework"; }
         }
 
         protected override string ExceptionFullName
         {
-            get { return "Xunit.Sdk.AssertException"; }
+            get { return "NUnit.Framework.AssertionException"; }
         }
     }
 }
