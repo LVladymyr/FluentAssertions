@@ -4,7 +4,7 @@ using FluentAssertions.Execution;
 using FluentAssertions.Formatting;
 using FluentAssertions.Xml;
 
-using Microsoft.Framework.Configuration;
+using Microsoft.Extensions.Configuration;
 
 namespace FluentAssertions.Common
 {

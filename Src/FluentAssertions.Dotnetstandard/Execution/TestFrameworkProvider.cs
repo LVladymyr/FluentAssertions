@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Framework.Configuration;
+using Microsoft.Extensions.Configuration;
 
 namespace FluentAssertions.Execution
 {
